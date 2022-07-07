@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NintendoNeón</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <div class="container nav__container">
+                <div class="logo">
+                    <h2 class="logo__name">NintendoNeón</h2>
+                </div>
+
+                <div class="links">
+                    <a href="index.html" class="link">Inicio</a>
+                    <a href="anuncios.html" class="link">Anuncios</a>
+                    <a href="nosotras.html" class="link">Nosotras</a>
+                    <a href="contacto.html" class="link">Contacto</a>
+                    <a href="login.html" class="link link--active">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <form class="formulario">
+        <h1>Regístrate</h1>
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre y Apellido">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electrónico">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña">
+            </div>
+
+            <input type="submit" value="Registrar" class="button">
+            <p>Al registrarte, aceptas nuestros Términos y Condiciones de uso. Política de privacidad</p>
+            <p>¿Ya tienes una cuenta? <a class="link" href="login.html">Iniciar sesión</a></p>
+
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="seccion contenedor">
+            <div class="contaier footer__caption">
+                <section class="download">
+                    <h3 class="title__footer">Descarga nuestra App</h3>
+                    <div class="download__app">
+                        <div class="download__item">
+                            <img class="download__logo" src="img/icono-appstore.png" width="40px" alt="">
+                            <h4 class="download__title">App Store</h4>
+                        </div>
+                        <div class="download__item">
+                            <img class="download__logo" src="img/icono-playstore.png" width="40px" alt="">
+                            <h4 class="download__title">Play Store</h4>
+                        </div>
+                    </div>
+        
+                    <div class="footer__copy">
+                        <p class="copyright">NintendoNeón &copy; 2022 Todos los derechos reservados</p>
+                        <a href="#" class="politica__privacidad politica__privacidad--margin">Política de privacidad</a>
+                        <a href="#" class="politica__privacidad">Términos y Condiciones</a>
+                    </div>
+                </section>
+                <section class="get-follow">
+                    <h3 class="title__footer">Siguénos en:</h3>
+                    <div class="socialmedia">
+                        <i class="socialmedia__icon"><img src="img/icono-facebook.png" width="40px" alt=""></i>
+                        <i class="socialmedia__icon"><img src="img/icono-instagram.png" width="40px" alt=""></i>
+                        <i class="socialmedia__icon"><img src="img/icono-twitter.png" width="40px" alt=""></i>
+                        <i class="socialmedia__icon"><img src="img/icono-youtube.png" width="40px" alt=""></i>
+
+                    <div class="item__contact">
+                        <i class="contact__icon"><img src="img/icono-location.png"  width="40px" alt=""></i>
+                        <p class="contact__title">GAME Center, Marbella, España.</p>
+                    </div>
+                    </div>    
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+.download{
+    width: 55%;
+    font-size: 1.2rem;
+}
+.download .title__footer{
+    font-size: 1.8rem;
+}
+
+.get-follow .title__footer{
+    font-size: 1.8rem;
+}
+
+.download .download__app .download__item .download__logo{
+    width: 30px;
+}
+
+.download .download__app .download__item .download__title{
+    font-size: 1.6rem;
+}
+
+.download .download__app .download__item{
+    padding: 15p 20px;
+}
+
+.get-follow{
+    width: 40%;
+}
+
+.get-follow .socialmedia .socialmedia__icon{
+    margin-bottom: -20px;
+}
+
+.get-follow .item__contact .contact__icon{
+    width: 20px;
+}
+
+.get-follow .item__contact .contact__title{
+    font-size: 1.5rem;
+    padding: 6px 10px;
+}
